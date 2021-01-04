@@ -1,0 +1,1 @@
+{"name":"Local: main","url":"d:\\STUDY\\DSA\\array problem\\kthElement\\main.java","tests":[{"id":1608908114790,"input":"5 \n-7 -4 -11 1 0\n3","output":"-4"},{"id":1608908226634,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\STUDY\\DSA\\array problem\\kthElement\\main.java","group":"local","local":true}
