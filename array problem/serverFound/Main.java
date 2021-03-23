@@ -8,11 +8,11 @@ class Main{
     {
       ar[i]=sc.nextInt();
     }
-    int count=0;
+    int sum=0;
     for(int j=0;j<ar.length;j=j+2)
     {
-      count++;
+      sum=sum+ar[j];
     }
-    System.out.println(count);
+    System.out.println(sum);
   }
 }

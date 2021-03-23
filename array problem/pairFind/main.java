@@ -14,7 +14,7 @@ class Main {
   }
 
   static int socksPair(int[] arr) {
-    ArrayList<Integer> list = new ArrayList<>();
+    int sum = 0;
 
     HashMap<Integer, Integer> map = new HashMap<>();
     for (int i = 0; i < arr.length; i++) {
@@ -25,15 +25,11 @@ class Main {
       }
     }
 
-    map.forEach((k, v) -> {
-      int value = (v / 2);
-      list.add(value);
-    });
-    int sum = 0;
-    for (int i = 0; i < list.size(); i++) {
-      sum = sum + list.get(i);
-
+    for (int el : map.keySet()) {
+      int val = (map.get(el) / 2);
+      sum = sum + val;
     }
+
     return sum;
   }
 }

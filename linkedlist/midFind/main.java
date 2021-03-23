@@ -51,7 +51,7 @@ class Linkedlist {
   static int mid(Linkedlist list) {
     Node fast_point = list.root;
     Node slow_point = list.root;
-    while (slow_point != null && fast_point.next != null) {
+    while (fast_point != null && fast_point.next != null) {
       slow_point = slow_point.next;
       fast_point = fast_point.next.next;
 
