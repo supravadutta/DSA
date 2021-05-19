@@ -23,6 +23,13 @@ class Main{
         list.add(k);
       }
     });
+    for(char el:map.keySet())
+    {
+      if(map.get(el)==1)
+      {
+        System.out.println(el);
+      }
+    }
     System.out.println(list);
   }
 
